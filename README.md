@@ -2,7 +2,7 @@
 
 **Title:** Log Data Visualization
 
-**Duration:** 3 months 
+**Duration:** 2 months 
 
 **Platform:** Web-based (Utilizes ReactJS for frontend, SpringBoot for backend, CSS for styling, and MySQL database)
 
