@@ -1,0 +1,113 @@
+/* Header container styling */
+.header-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust height based on content */
+    margin-bottom: 0; /* Remove any default margin */
+  }
+  
+  /* Video background styling */
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Header navigation styling */
+  .header-nav {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+    height: auto; /* Adjust height based on content */
+    padding: 10px 0; /* Adjust padding to fit content */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Heading container styling */
+  .heading-container {
+    position: relative;
+    top: 10px; /* Reduce this value to move the heading closer to the header */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .heading-container h1 {
+    margin: 0;
+    font-size: 2rem; /* Adjust font size as needed */
+    color: white;
+  }
+  
+  /* Body container styling */
+  .bod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f0f0f0; /* Light gray background for the whole section */
+    margin: 0;
+    min-height: calc(100vh - 60px); /* Adjust based on header height */
+  }
+  
+  /* Selection section styling */
+  .top-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the section */
+  }
+  
+  /* Upload section styling */
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: #ffffff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .top-heading h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Darker text color for better readability */
+  }
+  
+  .top-upload input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+
+  
+
+
+
+  

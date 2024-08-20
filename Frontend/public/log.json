@@ -1,0 +1,62 @@
+[
+    {
+        "level": "INFO",
+        "message": "Received GET request",
+        "endpoint": "/api/v1/resource",
+        "status_code": 200
+    },
+    {
+        "level": "INFO",
+        "message": "Received POST request",
+        "endpoint": "/api/v1/resource",
+        "status_code": 201
+    },
+    {
+        "level": "WARNING",
+        "message": "Rate limit exceeded",
+        "endpoint": "/api/v1/resource",
+        "status_code": 429
+    },
+    {
+        "level": "ERROR",
+        "message": "Internal server error",
+        "endpoint": "/api/v1/resource",
+        "status_code": 500
+    },
+    {
+        "level": "INFO",
+        "message": "Authentication successful",
+        "endpoint": "/api/v1/auth",
+        "status_code": 200
+    },
+    {
+        "level": "ERROR",
+        "message": "Authentication failed",
+        "endpoint": "/api/v1/auth",
+        "status_code": 401
+    },
+    {
+        "level": "INFO",
+        "message": "Resource updated",
+        "endpoint": "/api/v1/resource/123",
+        "status_code": 200
+    },
+    {
+        "level": "INFO",
+        "message": "Resource deleted",
+        "endpoint": "/api/v1/resource/123",
+        "status_code": 204
+    },
+    {
+        "level": "INFO",
+        "message": "Database query executed",
+        "query": "SELECT * FROM resources WHERE id=123",
+        "status_code": 200
+    },
+    {
+        "level": "ERROR",
+        "message": "Database connection failed",
+        "query": "SELECT * FROM resources WHERE id=123",
+        "status_code": 500
+    }
+]

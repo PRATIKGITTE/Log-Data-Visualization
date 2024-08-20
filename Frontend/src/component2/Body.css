@@ -1,0 +1,136 @@
+/* Body container styling */
+.bod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f0f0f0; /* Light gray background for the whole section */
+}
+
+/* Common gradient background */
+.gradient-background {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Selection section styling */
+.top-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.top-option h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffffff; /* White text for contrast */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow */
+}
+
+/* Style for the select element */
+.top-option select {
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ff6b6b; /* Stylish red background */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.top-option select:hover {
+    background-color: #e55039; /* Darker red on hover */
+    transform: scale(1.05); /* Larger on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4d4d; /* Red color for error messages */
+    margin-bottom: 10px; /* Space below the error message */
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ff6b6b; /* Stylish red button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55039; /* Darker red on hover */
+    transform: scale(1.05); /* Larger on hover */
+}
+
+/* Upload section styling */
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.top:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.top-heading h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffffff; /* White text for contrast */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow */
+}
+
+.top-upload input[type="file"] {
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ff6b6b; /* Stylish red button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.top-upload input[type="file"]:hover {
+    background-color: #e55039; /* Darker red on hover */
+    transform: scale(1.05); /* Larger on hover */
+}
+
+/* Assuming labels are inside top-option */
+.top-option h2, .top-option label {
+    color: #000000; /* Black text color */
+}
+
+/* Assuming labels are inside top */
+.top h2, .top label {
+    color: #000000; /* Black text color */
+}

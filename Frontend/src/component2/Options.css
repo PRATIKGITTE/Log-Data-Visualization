@@ -1,0 +1,57 @@
+.top-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.top-option:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+#charts {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #991387; /* Stylish pink dropdown */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#charts:hover {
+    background-color: #bb1fa6; /* Darker pink on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.generate-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: #117288; /* Stylish blue button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.generate-button:hover {
+    background-color: #0abde3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Assuming labels are inside top-option */
+.top-option h2, .top-option label {
+    color: #000000; /* Black text color */
+}

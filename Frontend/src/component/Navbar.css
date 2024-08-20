@@ -1,0 +1,32 @@
+
+.navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-logo {
+    width: 60px; /* Increase the size as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust spacing as needed */
+    margin-left: 20px;
+    vertical-align: middle; /* Align with text */
+  }
+  /* Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Optional: Add padding to the body to avoid overlap with the fixed navbar */
+body {
+  padding-top: 56px; /* Adjust based on the height of your Navbar */
+}

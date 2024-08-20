@@ -1,0 +1,105 @@
+/* Home.css */
+/*
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  */
+/* src/component/Home.css */
+
+.video-background {
+  position: fixed; /* Ensure the video covers the whole screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Ensure the video is behind other content */
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire background */
+  transform: translate(-50%, -50%); /* Center the video */
+}
+
+.home-content {
+  position: absolute; /* Position the content in relation to the viewport */
+  top: 20%; /* Adjust to position the content slightly below the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1; /* Ensure content is above the background video */
+  color: white; /* Text color */
+  background-color: black; /* Background color for the text */
+  padding: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners to the background */
+  text-align: center; /* Center align text */
+  max-width: 90%; /* Optional: limits the width of the content */
+}
+
+.welcome-title {
+  font-size: 2rem; /* Slightly larger font size for "Welcome To Our Project" */
+  margin-bottom: 10px; /* Space below the text */
+  border-bottom: 2px solid white; /* Underline with white color */
+  padding-bottom: 10px; /* Space between text and underline */
+}
+
+.info-title {
+  font-size: 3rem; /* Larger font size for "Log Data Visualization" */
+  margin-top: 20px; /* Space above the text */
+  padding-bottom: 10px; /* Space between text and underline */
+}
+
+.info-title.log-data {
+  color: orange; /* Set color to orange for "Log Data Visualization" */
+  border-bottom: 2px solid blue; /* Blue underline for "Log Data Visualization" */
+}
+/* src/component/Home.css */
+
+.home-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px; /* Space above the buttons */
+}
+
+.home-button {
+  background: linear-gradient(145deg, #0056b3, #003d7a); /* Gradient background */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 30px; /* Rounded corners */
+  padding: 12px 24px; /* Padding inside the button */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Make text bold */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Box shadow for 3D effect */
+}
+
+.home-button:hover {
+  background: linear-gradient(145deg, #003d7a, #0056b3); /* Inverted gradient background on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+.home-button:active {
+  transform: translateY(1px); /* Button pressed effect */
+}
+
+

@@ -1,0 +1,94 @@
+/* Info.css */
+/*
+.info-container {
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .info-title {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-subtitle {
+    color: #6c757d;
+    margin-bottom: 15px;
+  }
+  
+  .info-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    margin-bottom: 10px;
+  }
+  */
+/* src/component/Info.css */
+
+.info-container {
+  text-align: left;
+  padding: 20px;
+  background-color: black; /* Set background color to black */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: white; /* Set text color to white for visibility */
+}
+
+.info-title {
+  color: #007bff; /* Color for titles */
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-decoration: underline; /* Underline the titles */
+}
+
+.info-subtitle {
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.info-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 10px;
+}
+
+.info-buttons {
+  display: flex;
+  justify-content: space-between; /* Distributes space evenly between buttons */
+  gap: 10px; /* Adds spacing between buttons */
+  margin-top: 20px; /* Adds space above the buttons */
+}
+
+.info-button {
+  background-color: #66ff66; /* Brighter light green background */
+  color: #003300; /* Dark green text color for better contrast */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Make text bold */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+.info-button:hover {
+  background-color: #33cc33; /* Even brighter green background on hover */
+}
