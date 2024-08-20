@@ -10,9 +10,6 @@
 - **Styling:** CSS
 - **Database:** MySQL
 
-## **Description**
-The **Log Data Visualization** project aims to provide users with an intuitive and interactive tool for transforming raw log data into actionable visual insights. 
-
 ### **Key Features:**
 - **File Upload:** Users can upload log data files for processing.
 - **Chart Selection:** Users can choose the type of chart they want to generate.
